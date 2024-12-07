@@ -1,10 +1,12 @@
+import Header from "./header";
 import Sidenav from "./sidenav";
 
 export default function Layout({ children }: { children: React.ReactNode }) {
   return (
     <div className="flex h-screen">
+      <Header />
       <Sidenav />
-      <div className="ml-64 p-6 w-full">{children}</div>
+      <div className="ml-60 mt-16 p-6 w-full">{children}</div>
     </div>
   );
 }

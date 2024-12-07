@@ -25,7 +25,7 @@ export default function NavLinks() {
               pathname === link.href
                 ? "bg-primary text-white"
                 : "hover:text-primary"
-            } flex items-center justify-between gap-2 py-[10px] pl-4 pr-3 rounded-lg`}
+            } flex items-center justify-between gap-2 py-[10px] pl-4 pr-2 rounded-lg`}
           >
             <div className="flex gap-2 items-center">
               <LinkIcon className="size-5" />
