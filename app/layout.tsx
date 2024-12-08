@@ -1,6 +1,6 @@
 import type { Metadata } from "next";
 import "./global.css";
-import { nunito } from "./ui/fonts";
+import { noto_sans } from "./ui/fonts";
 
 export const metadata: Metadata = {
   title: "Essend",
@@ -14,7 +14,9 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body className={`${nunito.className} antialiased font-medium`}>
+      <body
+        className={`${noto_sans.className} antialiased text-secondary tracking-wide`}
+      >
         {children}
       </body>
     </html>

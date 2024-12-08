@@ -1,6 +1,6 @@
-import { Nunito } from "next/font/google";
+import { Noto_Sans } from "next/font/google";
 
-export const nunito = Nunito({
-  weight: ["400", "500", "600", "700"],
+export const noto_sans = Noto_Sans({
+  weight: ["500", "600", "700"],
   subsets: ["latin"],
 });

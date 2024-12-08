@@ -11,7 +11,6 @@ export default function ProductCard() {
             alt="Product image"
             width={720}
             height={960}
-            layout="responsive"
           />
           <Image
             src="/product-hover.webp"
@@ -19,15 +18,14 @@ export default function ProductCard() {
             alt="Product image"
             width={720}
             height={960}
-            layout="responsive"
           />
         </div>
-        <div className="text-center pt-1 pb-3 space-y-1">
-          <h3 className="text-[15px] font-semibold">Tigris Ring - Gold</h3>
+        <div className="text-center pt-2 pb-3 space-y-1">
+          <h3 className="text-sm">Tigris Ring - Gold</h3>
           <p className="text-sm">$48.00</p>
         </div>
       </div>
-      <button className="border border-secondary border-solid py-[10px] w-full hover:text-white hover:bg-primary hover:border-primary text-[15px] font-semibold transition-all duration-100">
+      <button className="border border-secondary border-solid py-[10px] w-full hover:text-white hover:bg-primary hover:border-primary text-[15px] font-medium transition-all duration-100">
         Add to cart
       </button>
     </li>
