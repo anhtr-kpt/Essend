@@ -15,7 +15,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body
-        className={`${noto_sans.className} antialiased text-secondary tracking-wide`}
+        className={`${noto_sans.className} antialiased text-secondary text-sm tracking-wide`}
       >
         {children}
       </body>

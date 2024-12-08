@@ -34,11 +34,11 @@ export default function Header() {
         isHeaderVisible ? "translate-y-0" : "-translate-y-full"
       }`}
     >
-      <div className="ml-60 px-6 py-3 flex justify-between items-center border-b-secondary/10 border-b">
-        <div className="relative">
+      <div className="ml-60 px-6 py-3 flex justify-between items-center gap-10 border-b-secondary/10 border-b">
+        <div className="relative grow">
           <input
             type="text"
-            className="pl-10 pr-6 py-2 border border-secondary/20 border-solid rounded-lg placeholder:text-border/50 text-sm w-[400px]"
+            className="pl-10 pr-6 py-2 border border-secondary/20 border-solid rounded-lg placeholder:text-border/50 text-sm w-full max-w-[400px]"
             placeholder="Search"
           />
           <label className="absolute top-1/2 -translate-y-1/2 left-3">

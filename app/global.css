@@ -5,3 +5,7 @@
 .lucide {
   stroke-width: 1.75px;
 }
+
+button {
+  @apply transition-all duration-100 ease-linear;
+}

@@ -1,9 +1,10 @@
 import Image from "next/image";
+import Link from "next/link";
 
 export default function ProductCard() {
   return (
     <li className="group pb-1">
-      <div>
+      <Link href="/">
         <div className="relative overflow-hidden">
           <Image
             src="/product.webp"
@@ -24,7 +25,7 @@ export default function ProductCard() {
           <h3 className="text-sm">Tigris Ring - Gold</h3>
           <p className="text-sm">$48.00</p>
         </div>
-      </div>
+      </Link>
       <button className="border border-secondary border-solid py-[10px] w-full hover:text-white hover:bg-primary hover:border-primary text-[15px] font-medium transition-all duration-100">
         Add to cart
       </button>
