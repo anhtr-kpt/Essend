@@ -11,6 +11,7 @@ export default function Sidenav() {
           width={141}
           height={33}
           alt="Essend logo"
+          priority
         />
       </Link>
       <NavLinks />

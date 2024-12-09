@@ -1,5 +1,5 @@
-import Header from "./header";
-import Sidenav from "./sidenav";
+import Header from "./components/header";
+import Sidenav from "./components/sidenav";
 
 export default function Layout({ children }: { children: React.ReactNode }) {
   return (

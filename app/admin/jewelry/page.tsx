@@ -1,5 +1,5 @@
 import { ListFilter, Plus } from "lucide-react";
-import ProductList from "./product-list";
+import ProductList from "@/app/components/product-list";
 import Pagination from "@/app/components/pagination";
 import Link from "next/link";
 
